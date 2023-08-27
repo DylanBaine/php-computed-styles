@@ -65,4 +65,4 @@ $styles = ComputedStyles::make([
 <div style="<?= $styles ?>">My Div</div>
 ```
 
-This works pretty much exactly the same as how the `ComputedClasses` class works. The only difference is how the class is encoed to a string.
+This works pretty much exactly the same as how the `ComputedClasses` class works. The only difference is how the class is encoded to a string.
