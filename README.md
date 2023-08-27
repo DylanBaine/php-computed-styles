@@ -2,6 +2,12 @@
 
 Build up classes or styles to be injected into HTML.
 
+## Installation
+
+```bash
+composer require baine/php-computed-styles
+```
+
 ## Example Usage
 
 The two main classes in this package can be used to build styles and classes for your HTML dynamically.
