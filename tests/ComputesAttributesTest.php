@@ -106,4 +106,23 @@ class ComputesAttributesTest extends TestCase
             'display' => 'none'
         ]), '' . $styles);
     }
+
+    function test_handles_keys_well()
+    {
+        $styles = ComputesStylesFixture::make([
+            'a',
+            'b'
+        ])->push([
+            'c',
+            'd',
+            'e' => 'f'
+        ]);
+        $this->assertEquals(json_encode([
+            'a',
+            'b',
+            'c',
+            'd',
+            'e' => 'f'
+        ]), '' . $styles);
+    }
 }
