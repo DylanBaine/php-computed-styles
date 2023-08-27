@@ -1,0 +1,23 @@
+{
+  "name": "baine/php-computed-styles",
+  "description": "\"Use method chaining to add classes and styles to html elements in PHP.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Baine\\PhpComputedStyles\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "Tests\\": "tests/"
+  },
+  "authors": [
+    {
+      "name": "Dylan Baine",
+      "email": "dylan.baine@yahoo.com"
+    }
+  ],
+  "license": "MIT",
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  }
+}
