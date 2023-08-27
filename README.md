@@ -72,3 +72,7 @@ $styles = ComputedStyles::make([
 ```
 
 This works pretty much exactly the same as how the `ComputedClasses` class works. The only difference is how the class is encoded to a string.
+
+## Helper Functions
+
+Both classes can be accessed easily via helper functions. `baine_computedStyles()` and `baine_computedClasses()`.
