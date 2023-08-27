@@ -7,7 +7,7 @@
       "Baine\\PhpComputedStyles\\": "src/"
     },
     "files": [
-      "src/functions"
+      "src/functions.php"
     ]
   },
   "autoload-dev": {
