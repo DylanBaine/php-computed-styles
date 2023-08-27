@@ -18,4 +18,15 @@ class ComputedClassesTest extends TestCase
         ]);
         $this->assertEquals("red green purple", '' . $styles);
     }
+
+    function test_when_true()
+    {
+        $styles = ComputedClasses::make([
+            'a'
+        ])
+            ->when(true, [
+                'b',
+            ]);
+        $this->assertEquals('a b', '' . $styles);
+    }
 }

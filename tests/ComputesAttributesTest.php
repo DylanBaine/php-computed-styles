@@ -32,6 +32,21 @@ class ComputesAttributesTest extends TestCase
         ]), '' . $styles);
     }
 
+    function test_matches_string_keys_but_not_empty_or_number_ones()
+    {
+        $styles = ComputesStylesFixture::make([
+            'a'
+        ])->push([
+            'a',
+            'val' => 'a'
+        ]);
+        $this->assertEquals(json_encode([
+            'a',
+            'a',
+            'val' => 'a'
+        ]), '' . $styles);
+    }
+
     function test_when_with_true_pushes_styles()
     {
         $styles = ComputesStylesFixture::make([
