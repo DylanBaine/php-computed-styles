@@ -1,6 +1,6 @@
 # PHP Computed Styles
 
-Build up classes or styles to be injected into HTML.
+Build up classes or styles to be injected into HTML. I wrote a blog post about this project [on my blog](https://dylanbaine.com/read/a-cleaner-way-to-dynamically-style-elements-in-php).
 
 ## Installation
 
